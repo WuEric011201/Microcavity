@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>microcavity.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AFD9FDA61D4D723C00C35782</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFD9FDBF1D4D723D00C35782</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFD9FDCA1D4D723D00C35782</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

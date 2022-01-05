@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" reuseIdentifier="Cell" id="gTV-IL-0wX" customClass="MeasurementCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tEJ-PV-0Lt">
+                        <rect key="frame" x="1" y="26.5" width="98" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kVp-qd-WEG">
+                        <rect key="frame" x="1" y="1" width="99" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="kVp-qd-WEG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="6xh-da-Hum"/>
+                <constraint firstAttribute="trailing" secondItem="tEJ-PV-0Lt" secondAttribute="trailing" constant="1" id="CFy-RY-nVS"/>
+                <constraint firstItem="tEJ-PV-0Lt" firstAttribute="height" secondItem="kVp-qd-WEG" secondAttribute="height" id="Jdk-EP-wNZ"/>
+                <constraint firstAttribute="bottom" secondItem="tEJ-PV-0Lt" secondAttribute="bottom" constant="1" id="ShV-aO-FAa"/>
+                <constraint firstItem="kVp-qd-WEG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="Tsf-mH-3GG"/>
+                <constraint firstItem="tEJ-PV-0Lt" firstAttribute="top" secondItem="kVp-qd-WEG" secondAttribute="bottom" constant="3" id="ifx-98-M93"/>
+                <constraint firstAttribute="trailing" secondItem="kVp-qd-WEG" secondAttribute="trailing" id="rQC-yI-7Pp"/>
+                <constraint firstItem="tEJ-PV-0Lt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="rYu-aZ-wVm"/>
+            </constraints>
+            <size key="customSize" width="159" height="57"/>
+            <connections>
+                <outlet property="measurementTitle" destination="kVp-qd-WEG" id="BZH-Yd-FAS"/>
+                <outlet property="measurementValue" destination="tEJ-PV-0Lt" id="Rdz-Bw-Vzp"/>
+            </connections>
+            <point key="canvasLocation" x="27" y="333"/>
+        </collectionViewCell>
+    </objects>
+</document>

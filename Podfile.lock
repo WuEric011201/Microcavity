@@ -1,0 +1,17 @@
+PODS:
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - MJExtension
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: bb4f6398c27c4876571d2143a58a933d45d89347
+
+COCOAPODS: 1.0.1
